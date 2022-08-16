@@ -1,0 +1,39 @@
+{
+	"version": "2.6",
+	"projectName": "ETC",
+	"projectType": "pure",
+	"moduleModel": "air72XUX/air82XUX",
+	"simulatorRun": "disable",
+	"corePath": "C:\\Users\\Dell\\AppData\\Roaming\\LuatIDE\\LuatideCore\\Air72XUX_CORE\\LuatOS-Air_V4003_RDA8910_TTS_NOLVGL_FLOAT.pac",
+	"libPath": "C:\\Users\\Dell\\AppData\\Roaming\\LuatIDE\\LuatideLib\\Air72XUX_LIB\\V2.4.3\\lib",
+	"modulePort": "",
+	"appFile": [
+		"appETC.lua",
+		"configurator\\conf.lua",
+		"facility\\controller.lua",
+		"facility\\gateway.lua",
+		"launcher.lua",
+		"luatide_project.json",
+		"main.lua",
+		"sdcard\\kvdb.lua",
+		"sdcard\\logger.lua",
+		"sdcard\\record.lua",
+		"uartparser\\radioUHF.lua",
+		"utilities\\async.lua",
+		"utilities\\cache.lua",
+		"utilities\\filesystem.lua",
+		"utilities\\lang.lua",
+		"utilities\\middleclass.lua",
+		"configurator",
+		"facility",
+		"sdcard",
+		"uartparser",
+		"utilities"
+	],
+	"ignore": [
+		"README.md",
+		"参考代码\\my_utils.lua",
+		"参考代码\\RF_N6004.lua",
+		"参考代码"
+	]
+}

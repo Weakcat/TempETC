@@ -1,0 +1,700 @@
+2022-08-08 17:43:36.8582 AT+LUATCONSOLE=1
+2022-08-08 17:43:36.8592 
+2022-08-08 17:43:36.8622 ATI
+2022-08-08 17:43:36.8641 
+2022-08-08 17:43:36.8641 LuatOS-Air_V4003_RDA8910_TTS_NOLVGL_FLOAT
+2022-08-08 17:43:36.8662 
+2022-08-08 17:43:36.8672 OK
+2022-08-08 17:43:36.8692 AT+LUACHECKSUM=46d82c35a5058fba1a2f8f8f8486185c
+2022-08-08 17:43:36.8712 
+2022-08-08 17:43:36.8712 +LUACHECKSUM: 0
+2022-08-08 17:43:36.8732 
+2022-08-08 17:43:36.8742 OK
+2022-08-08 17:43:36.9872 > [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:43:36.9932 [I]-[socket:connect: connect ok]
+2022-08-08 17:43:37.0132 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:43:37.2465 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:43:37.2544 [D]-[socket.recv] 252 nil
+2022-08-08 17:43:37.2745 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:43:37.2834 [I]-[socket:sock_close] 1
+2022-08-08 17:43:37.3143 [I]-[http path] /auth/devicename
+2022-08-08 17:43:37.3603 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:43:37.3762 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:43:38.7285 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:43:38.7305 [I]-[socket:connect: connect ok]
+2022-08-08 17:43:38.7355 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:43:38.8472 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:43:38.8502 [D]-[socket.recv] 252 nil
+2022-08-08 17:43:38.8582 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:43:38.8602 [I]-[socket:sock_close] 0
+2022-08-08 17:43:38.8642 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:43:41.9558 AT+RESET
+2022-08-08 17:43:41.9558 
+2022-08-08 17:43:41.9558 OK
+2022-08-08 17:43:46.2066 AT+LUATCONSOLE=1
+2022-08-08 17:43:46.2076 
+2022-08-08 17:43:47.5808 
+2022-08-08 17:43:47.5808 +CPIN: READY
+2022-08-08 17:43:47.5818 
+2022-08-08 17:43:47.5818 ^CARDMODE: 2
+2022-08-08 17:43:49.4394 
+2022-08-08 17:43:49.4394 ^MODE: 17,17
+2022-08-08 17:43:49.4394 
+2022-08-08 17:43:49.4613 
+2022-08-08 17:43:49.4613 +NITZ: 22/08/08,09:43:58+32,0
+2022-08-08 17:43:49.4653 
+2022-08-08 17:43:49.4663 *CGEV: ACT,5,"cmiot.MNC004.MCC460.GPRS","10.114.87.116"
+2022-08-08 17:43:49.6691 
+2022-08-08 17:43:49.6701 SMS READY
+2022-08-08 17:43:50.7976 > [I]-[Fetch] there is file
+2022-08-08 17:43:51.0942 [I]-[db_path] /sdcard0/epc6/
+2022-08-08 17:43:51.1187 [I]-[Fetch] there is file
+2022-08-08 17:43:51.1336 [I]-[poweron reason:] 3 ETC 1.0.3 2.4.3 LuatOS-Air_V4003_RDA8910_TTS_NOLVGL_FLOAT
+2022-08-08 17:43:51.1356 [I]-[core build time] Apr 25 2022 21:07:03
+2022-08-08 17:43:51.1406 [I]-[ril.proatc] RDY
+2022-08-08 17:43:51.1416 [I]-[ril.proatc] +CPIN: READY
+2022-08-08 17:43:51.1446 [I]-[ril.proatc] ^CARDMODE: 2
+2022-08-08 17:43:51.1456 [I]-[ril.defurc] ^CARDMODE: 2
+2022-08-08 17:43:51.1466 [I]-[ril.proatc] ^MODE: 17,17
+2022-08-08 17:43:51.1486 [I]-[net.UpdNetMode] nil 0 17 17
+2022-08-08 17:43:51.1496 [I]-[net.NET_UPD_NET_MODE] 4
+2022-08-08 17:43:51.1526 [I]-[ril.proatc] +NITZ: 22/08/08,09:43:58+32,0
+2022-08-08 17:43:51.1536 [I]-[ril.defurc] +NITZ: 22/08/08,09:43:58+32,0
+2022-08-08 17:43:51.1556 [I]-[ril.proatc] *CGEV: ACT,5,"cmiot.MNC004.MCC460.GPRS","10.114.87.116"
+2022-08-08 17:43:51.1566 [I]-[link.cgevurc] *CGEV: ACT,5,"cmiot.MNC004.MCC460.GPRS","10.114.87.116"
+2022-08-08 17:43:51.1586 [I]-[ril.proatc] SMS READY
+2022-08-08 17:43:51.1596 [I]-[ril.defurc] SMS READY
+2022-08-08 17:43:51.1626 [I]-[ril.sendat] ATE0
+2022-08-08 17:43:51.1655 [I]-[SIM.subscribe] nil RDY
+2022-08-08 17:43:51.1725 [I]-[ril.proatc] ATE0
+2022-08-08 17:43:51.1735 [I]-[ril.defurc] ATE0
+2022-08-08 17:43:51.1885 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.1905 [I]-[ril.defrsp] ATE0 true OK nil
+2022-08-08 17:43:51.1935 [I]-[ril.sendat] AT+CMEE=0
+2022-08-08 17:43:51.2180 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.2210 [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+2022-08-08 17:43:51.2230 [I]-[ril.sendat] AT+SIMCROSS?
+2022-08-08 17:43:51.2490 [I]-[ril.proatc] +SIMCROSS:0
+2022-08-08 17:43:51.2510 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.2549 [I]-[ril.sendat] AT+COPS?
+2022-08-08 17:43:51.3238 [I]-[ril.proatc] +COPS: 0,2,"46000",7
+2022-08-08 17:43:51.3258 [I]-[cops] 2 46000 nil
+2022-08-08 17:43:51.3268 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.3297 [I]-[ril.defrsp] AT+COPS? true OK nil
+2022-08-08 17:43:51.3327 [I]-[ril.sendat] AT+CREG=2
+2022-08-08 17:43:51.3577 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.3597 [I]-[ril.defrsp] AT+CREG=2 true OK nil
+2022-08-08 17:43:51.3627 [I]-[ril.sendat] AT+CGREG=2
+2022-08-08 17:43:51.3886 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.3906 [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+2022-08-08 17:43:51.3926 [I]-[ril.sendat] AT+CEREG=2
+2022-08-08 17:43:51.4201 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.4231 [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+2022-08-08 17:43:51.4251 [I]-[ril.sendat] AT+CREG?
+2022-08-08 17:43:51.4520 [I]-[ril.proatc] +CREG: 2,1,"60a5","03850a91",7
+2022-08-08 17:43:51.4540 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:43:51.4560 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.4580 [I]-[ril.defrsp] AT+CREG? true OK nil
+2022-08-08 17:43:51.4610 [I]-[ril.sendat] AT+CGREG?
+2022-08-08 17:43:51.4869 [I]-[ril.proatc] +CGREG: 2,1,"60A5","03850a91"
+2022-08-08 17:43:51.4889 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:43:51.4909 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.4929 [I]-[ril.defrsp] AT+CGREG? true OK nil
+2022-08-08 17:43:51.4959 [I]-[ril.sendat] AT+CEREG?
+2022-08-08 17:43:51.5218 [I]-[ril.proatc] +CEREG: 2,1,"60a5","03850a91",7
+2022-08-08 17:43:51.5238 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:43:51.5248 [I]-[net.creg7] 1 7
+2022-08-08 17:43:51.5278 [I]-[net.UpdNetMode] nil 4 17 17
+2022-08-08 17:43:51.5298 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.5318 [I]-[ril.defrsp] AT+CEREG? true OK nil
+2022-08-08 17:43:51.5348 [I]-[ril.sendat] AT+CALIBINFO?
+2022-08-08 17:43:51.5368 [I]-[link.Pdp_Act] false 4 nil
+2022-08-08 17:43:51.5607 [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+2022-08-08 17:43:51.5617  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+2022-08-08 17:43:51.5637 [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+2022-08-08 17:43:51.5657 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.5697 [I]-[ril.sendat] AT*BAND?
+2022-08-08 17:43:51.5937 [I]-[ril.proatc] ERROR
+2022-08-08 17:43:51.5962 [I]-[ril.defrsp] AT*BAND? false ERROR nil
+2022-08-08 17:43:51.5992 [I]-[ril.sendat] AT+EEMOPT=1
+2022-08-08 17:43:51.6251 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.6291 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:43:51.6572 [I]-[ril.proatc] +CSQ: 24,99
+2022-08-08 17:43:51.6592 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.6641 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:43:51.6921 [I]-[ril.proatc] +CESQ: 99,99,255,255,17,46
+2022-08-08 17:43:51.6941 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.6980 [I]-[ril.sendat] AT+EEMGINFO?
+2022-08-08 17:43:51.7230 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2022-08-08 17:43:51.7260 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2022-08-08 17:43:51.7260 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.7290 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2022-08-08 17:43:51.7320 [I]-[ril.sendat] AT+RNDISCALL=0,1
+2022-08-08 17:43:51.7569 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.7589 [I]-[ril.defrsp] AT+RNDISCALL=0,1 true OK nil
+2022-08-08 17:43:51.7619 [I]-[ril.sendat] AT+WISN?
+2022-08-08 17:43:51.7890 [I]-[ril.proatc]                   ?RjZCOUJEMDQ3OUU1MDFEMkUwRDY4NDk5
+2022-08-08 17:43:51.7910 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.7950 [I]-[ril.sendat] AT+CGSN
+2022-08-08 17:43:51.8209 [I]-[ril.proatc] 868739056419447
+2022-08-08 17:43:51.8229 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.8269 [I]-[ril.sendat] AT+MUID?
+2022-08-08 17:43:51.8518 [I]-[ril.proatc] +MUID: 20210421120454A422279A6086399775
+2022-08-08 17:43:51.8538 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.8577 [I]-[ril.sendat] AT*EXINFO?
+2022-08-08 17:43:51.8832 [I]-[ril.proatc] *EXINFO:poweron=3
+2022-08-08 17:43:51.8852 [I]-[ril.defurc] *EXINFO:poweron=3
+2022-08-08 17:43:51.8872 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.8892 [I]-[ril.defrsp] AT*EXINFO? true OK nil
+2022-08-08 17:43:51.8922 [I]-[ril.sendat] AT+CGMM
+2022-08-08 17:43:51.9181 [I]-[ril.proatc] +CGMM: "Air724UG"
+2022-08-08 17:43:51.9211 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.9221 
+2022-08-08 17:43:51.9231 +EEMLTESVC: 1120, 2, 0, 24741, 93, 38400, 38400, 39, 5, 59050641, 7, 46, 18, 5, 46, 18, 46, 18, 65535, 0, 10, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:43:51.9261 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 24741, 93, 38400, 38400, 39, 5, 59050641, 7, 46, 18, 5, 46, 18, 46, 18, 65535, 0, 10, 
+2022-08-08 17:43:51.9271 
+2022-08-08 17:43:51.9271 +EEMLTEINTRA:0,0,123,49,29,1120,0,24741,40115021
+2022-08-08 17:43:51.9281 
+2022-08-08 17:43:51.9281 +EEMLTEINTER:0,0,11,41,8,1120,0,24741,5684612
+2022-08-08 17:43:51.9281 
+2022-08-08 17:43:51.9291 +EEMLTEINTER:1,0,31,42,11,1120,0,24741,58970755
+2022-08-08 17:43:51.9291 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:43:51.9321 [I]-[eemLteSvc1] 24741 59050641  1120 0
+2022-08-08 17:43:51.9410 [I]-[ril.sendat] AT+CIND=1
+2022-08-08 17:43:51.9650 [I]-[ril.proatc] OK
+2022-08-08 17:43:51.9690 [I]-[ril.sendat] AT+ICCID
+2022-08-08 17:43:51.9950 [I]-[ril.proatc] +ICCID: 89860412101890575947
+2022-08-08 17:43:51.9970 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.0009 [I]-[ril.sendat] AT+CIMI
+2022-08-08 17:43:52.0448 [I]-[ril.proatc] 460043245605947
+2022-08-08 17:43:52.0468 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.0508 [I]-[ril.sendat] AT+COPS?
+2022-08-08 17:43:52.1200 [I]-[ril.proatc] +COPS: 0,2,"46000",7
+2022-08-08 17:43:52.1210 [I]-[cops] 2 46000 true
+2022-08-08 17:43:52.1230 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.1250 [I]-[ril.defrsp] AT+COPS? true OK nil
+2022-08-08 17:43:52.1280 [I]-[ril.sendat] AT+CEREG?
+2022-08-08 17:43:52.1539 [I]-[ril.proatc] +CEREG: 2,1,"60a5","03850a91",7
+2022-08-08 17:43:52.1559 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:43:52.1579 [I]-[net.creg7] 1 7
+2022-08-08 17:43:52.1589 [I]-[net.UpdNetMode] nil 4 17 17
+2022-08-08 17:43:52.1609 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.1639 [I]-[ril.defrsp] AT+CEREG? true OK nil
+2022-08-08 17:43:52.1659 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:43:52.1948 [I]-[ril.proatc] +CSQ: 24,99
+2022-08-08 17:43:52.1958 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.2008 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:43:52.2267 [I]-[ril.proatc] +CESQ: 99,99,255,255,17,46
+2022-08-08 17:43:52.2277 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.2317 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:43:52.2576 [I]-[ril.proatc] +CSQ: 24,99
+2022-08-08 17:43:52.2596 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.2646 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:43:52.2896 [I]-[ril.proatc] +CESQ: 99,99,255,255,17,46
+2022-08-08 17:43:52.2916 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.2955 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:43:52.3215 [I]-[ril.proatc] +CSQ: 24,99
+2022-08-08 17:43:52.3235 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.3275 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:43:52.3554 [I]-[ril.proatc] +CESQ: 99,99,255,255,17,46
+2022-08-08 17:43:52.3574 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.3614 [I]-[ril.sendat] AT+EEMGINFO?
+2022-08-08 17:43:52.3879 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2022-08-08 17:43:52.3889 
+2022-08-08 17:43:52.3899 +EEMLTESVC: 1120, 2, 0, 24741, 93, 38400, 38400, 39, 5, 59050641, 7, 46, 18, 7, 46, 18, 46, 18, 65535, 0, 10, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:43:52.3909 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2022-08-08 17:43:52.3929 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.3929 
+2022-08-08 17:43:52.3939 +EEMLTEINTRA:0,0,123,49,29,1120,0,24741,40115021
+2022-08-08 17:43:52.3939 
+2022-08-08 17:43:52.3949 +EEMLTEINTER:0,0,11,41,8,1120,0,24741,5684612
+2022-08-08 17:43:52.3959 
+2022-08-08 17:43:52.3959 +EEMLTEINTER:1,0,31,43,11,1120,0,24741,58970755
+2022-08-08 17:43:52.3969 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2022-08-08 17:43:52.3989 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 24741, 93, 38400, 38400, 39, 5, 59050641, 7, 46, 18, 7, 46, 18, 46, 18, 65535, 0, 10, 
+2022-08-08 17:43:52.3989 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:43:52.4019 [I]-[eemLteSvc1] 24741 59050641  1120 0
+2022-08-08 17:43:52.4118 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:43:52.4388 [I]-[ril.proatc] +CSQ: 24,99
+2022-08-08 17:43:52.4408 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.4448 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:43:52.4707 [I]-[ril.proatc] +CESQ: 99,99,255,255,17,46
+2022-08-08 17:43:52.4727 [I]-[ril.proatc] OK
+2022-08-08 17:43:52.5405 [I]-[link.pdpCmdCnf] SET_PDP_4G_WAITAPN true nil nil
+2022-08-08 17:43:53.5457 [I]-[ril.sendat] AT+CGDCONT?
+2022-08-08 17:43:53.5736 [I]-[ril.proatc] +CGDCONT: 5,"IP","cmiot","10.114.87.116",0,0
+2022-08-08 17:43:53.5746 [I]-[link.pdpCmdCnf] AT+CGDCONT? true OK +CGDCONT: 5,"IP","cmiot","10.114.87.116",0,0
+2022-08-08 17:43:53.5756 [I]-[analysis_cgdcont end] +CGDCONT: 5,"IP","cmiot","10.114.87.116",0,0 nil nil
+2022-08-08 17:43:53.5776 [I]-[analysis_cgdcont ] 5 "IP" "cmiot" 10.114.87.116
+2022-08-08 17:43:53.5796 [I]-[ril.proatc] OK
+2022-08-08 17:43:53.5816 [I]-[link.pdpCmdCnf] CONNECT_DELAY true nil nil
+2022-08-08 17:43:53.5826 [I]-[publish IP_READY_IND]
+2022-08-08 17:43:53.5876 [I]-[http path] /auth/devicename
+2022-08-08 17:43:53.5935 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:43:54.6646 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:43:54.6666 [I]-[socket:connect: connect ok]
+2022-08-08 17:43:54.6686 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:43:54.8362 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:43:54.8412 [D]-[socket.recv] 252 nil
+2022-08-08 17:43:54.8472 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:43:54.8491 [I]-[socket:sock_close] 0
+2022-08-08 17:43:54.8551 [I]-[http path] /auth/devicename
+2022-08-08 17:43:54.8611 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:43:54.8681 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:43:55.7792 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:43:55.7812 [I]-[socket:connect: connect ok]
+2022-08-08 17:43:55.7832 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:43:55.9569 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:43:55.9609 [D]-[socket.recv] 252 nil
+2022-08-08 17:43:55.9659 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:43:55.9678 [I]-[socket:sock_close] 1
+2022-08-08 17:43:55.9739 [I]-[http path] /auth/devicename
+2022-08-08 17:43:55.9804 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:43:55.9859 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:43:56.8988 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:43:56.9008 [I]-[socket:connect: connect ok]
+2022-08-08 17:43:56.9028 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:43:57.0963 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:43:57.1012 [D]-[socket.recv] 252 nil
+2022-08-08 17:43:57.1102 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:43:57.1102 [I]-[socket:sock_close] 0
+2022-08-08 17:43:57.1172 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:02.1159 [I]-[http path] /auth/devicename
+2022-08-08 17:44:02.1228 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:03.2274 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:03.2294 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:03.2323 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:03.3765 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:03.3815 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:03.3865 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:03.3875 [I]-[socket:sock_close] 0
+2022-08-08 17:44:03.3935 [I]-[http path] /auth/devicename
+2022-08-08 17:44:03.3995 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:03.4065 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:04.3392 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:04.3412 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:04.3432 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:04.5243 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:04.5303 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:04.5352 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:04.5362 [I]-[socket:sock_close] 1
+2022-08-08 17:44:04.5422 [I]-[http path] /auth/devicename
+2022-08-08 17:44:04.5492 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:04.5542 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:05.5981 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:05.6001 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:05.6021 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:05.7715 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:05.7755 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:05.7805 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:05.7815 [I]-[socket:sock_close] 0
+2022-08-08 17:44:05.7885 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:10.7899 [I]-[http path] /auth/devicename
+2022-08-08 17:44:10.7959 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:11.6987 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:11.7007 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:11.7037 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:11.8114 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:11.8164 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:11.8204 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:11.8223 [I]-[socket:sock_close] 0
+2022-08-08 17:44:11.8283 [I]-[http path] /auth/devicename
+2022-08-08 17:44:11.8343 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:11.8433 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:12.5002 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:12.5022 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:12.5042 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:12.6229 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:12.6229 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:12.6264 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:12.6274 [I]-[socket:sock_close] 1
+2022-08-08 17:44:12.6324 [I]-[http path] /auth/devicename
+2022-08-08 17:44:12.6384 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:12.6463 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:13.4599 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:13.4629 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:13.4649 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:13.5776 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:13.5826 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:13.5866 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:13.5885 [I]-[socket:sock_close] 0
+2022-08-08 17:44:13.5955 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:18.5961 [I]-[http path] /auth/devicename
+2022-08-08 17:44:18.6021 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:19.5477 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:19.5497 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:19.5517 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:19.6656 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:19.6696 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:19.6746 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:19.6762 [I]-[socket:sock_close] 0
+2022-08-08 17:44:19.6822 [I]-[http path] /auth/devicename
+2022-08-08 17:44:19.6882 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:19.6962 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:20.5095 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:20.5115 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:20.5135 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:20.6233 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:20.6332 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:20.6372 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:20.6392 [I]-[socket:sock_close] 1
+2022-08-08 17:44:20.6462 [I]-[http path] /auth/devicename
+2022-08-08 17:44:20.6517 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:20.6577 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:21.4631 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:21.4651 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:21.4671 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:21.5829 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:21.5878 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:21.5919 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:21.5939 [I]-[socket:sock_close] 0
+2022-08-08 17:44:21.6005 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:26.6021 [I]-[http path] /auth/devicename
+2022-08-08 17:44:26.6081 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:27.5413 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:27.5435 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:27.5453 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:27.6546 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:27.6626 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:27.6667 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:27.6686 [I]-[socket:sock_close] 0
+2022-08-08 17:44:27.6745 [I]-[http path] /auth/devicename
+2022-08-08 17:44:27.6801 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:27.6876 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:28.4998 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:28.5018 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:28.5038 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:28.6115 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:28.6165 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:28.6207 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:28.6226 [I]-[socket:sock_close] 1
+2022-08-08 17:44:28.6296 [I]-[http path] /auth/devicename
+2022-08-08 17:44:28.6358 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:28.6438 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:29.4707 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:29.4727 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:29.4747 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:29.5867 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:29.5939 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:29.5985 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:29.5996 [I]-[socket:sock_close] 0
+2022-08-08 17:44:29.6075 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:30.0545 
+2022-08-08 17:44:30.0551 +CREG: 1,"60a5","02816844",7
+2022-08-08 17:44:30.0551 
+2022-08-08 17:44:30.0560 +CEREG: 1,"60a5","02816844",7
+2022-08-08 17:44:30.0560 [I]-[ril.proatc] +CREG: 1,"60a5","02816844",7
+2022-08-08 17:44:30.0570 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:30.0600 [I]-[ril.proatc] +CEREG: 1,"60a5","02816844",7
+2022-08-08 17:44:30.0630 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:30.0660 [I]-[net.creg7] 1 7
+2022-08-08 17:44:30.0690 [I]-[net.UpdNetMode] nil 4 17 17
+2022-08-08 17:44:30.0750 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:30.1099 [I]-[ril.proatc] +CSQ: 21,99
+2022-08-08 17:44:30.1099 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.1139 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:30.1430 [I]-[ril.proatc] +CESQ: 99,99,255,255,7,36
+2022-08-08 17:44:30.1440 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.1460 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:30.1710 
+2022-08-08 17:44:30.1710 +CREG: 1,"60a5","03850a91",7
+2022-08-08 17:44:30.1720 [I]-[ril.proatc] +CREG: 1,"60a5","03850a91",7
+2022-08-08 17:44:30.1720 
+2022-08-08 17:44:30.1730 +CEREG: 1,"60a5","03850a91",7
+2022-08-08 17:44:30.1730 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:30.1730 [I]-[ril.proatc] +CEREG: 1,"60a5","03850a91",7
+2022-08-08 17:44:30.1750 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:30.1760 [I]-[net.creg7] 1 7
+2022-08-08 17:44:30.1780 [I]-[net.UpdNetMode] nil 4 17 17
+2022-08-08 17:44:30.1799 [I]-[ril.proatc] +CSQ: 25,99
+2022-08-08 17:44:30.1819 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.1859 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:30.2208 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,49
+2022-08-08 17:44:30.2278 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.2288 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:30.2468 [I]-[ril.proatc] +CSQ: 25,99
+2022-08-08 17:44:30.2478 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.2528 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:30.2808 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,49
+2022-08-08 17:44:30.2818 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.2868 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:30.3258 [I]-[ril.proatc] +CSQ: 25,99
+2022-08-08 17:44:30.3268 [I]-[ril.proatc] OK
+2022-08-08 17:44:30.3278 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:30.3443 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,49
+2022-08-08 17:44:30.3458 [I]-[ril.proatc] OK
+2022-08-08 17:44:34.6079 [I]-[http path] /auth/devicename
+2022-08-08 17:44:34.6139 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:35.7258 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:35.7288 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:35.7308 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:35.8956 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:35.8996 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:35.9046 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:35.9056 [I]-[socket:sock_close] 0
+2022-08-08 17:44:35.9115 [I]-[http path] /auth/devicename
+2022-08-08 17:44:35.9185 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:35.9235 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:36.8485 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:36.8506 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:36.8525 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:37.0151 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:37.0201 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:37.0241 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:37.0261 [I]-[socket:sock_close] 1
+2022-08-08 17:44:37.0320 [I]-[http path] /auth/devicename
+2022-08-08 17:44:37.0380 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:37.0430 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:38.1294 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:38.1324 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:38.1354 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:38.2223 
+2022-08-08 17:44:38.2223 +CREG: 1,"60a5","0383d283",7
+2022-08-08 17:44:38.2243 
+2022-08-08 17:44:38.2253 +CEREG: 1,"60a5","0383d283",7
+2022-08-08 17:44:38.2263 [I]-[ril.proatc] +CREG: 1,"60a5","0383d283",7
+2022-08-08 17:44:38.2295 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:38.2315 [I]-[ril.proatc] +CEREG: 1,"60a5","0383d283",7
+2022-08-08 17:44:38.2325 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:38.2345 [I]-[net.creg7] 1 7
+2022-08-08 17:44:38.2365 [I]-[net.UpdNetMode] nil 4 17 17
+2022-08-08 17:44:38.2395 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:38.2665 [I]-[ril.proatc] +CSQ: 24,99
+2022-08-08 17:44:38.2684 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.2726 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:38.3009 [I]-[ril.proatc] +CESQ: 99,99,255,255,20,46
+2022-08-08 17:44:38.3029 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.3070 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:38.3218 
+2022-08-08 17:44:38.3228 +CREG: 1,"60a5","03b8cd83",7
+2022-08-08 17:44:38.3258 
+2022-08-08 17:44:38.3268 +CEREG: 1,"60a5","03b8cd83",7
+2022-08-08 17:44:38.3278 [I]-[ril.proatc] +CREG: 1,"60a5","03b8cd83",7
+2022-08-08 17:44:38.3364 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:38.3386 [I]-[ril.proatc] +CEREG: 1,"60a5","03b8cd83",7
+2022-08-08 17:44:38.3404 [I]-[net.creg1] 4 +CEREG: 
+2022-08-08 17:44:38.3424 [I]-[net.creg7] 1 7
+2022-08-08 17:44:38.3444 [I]-[net.UpdNetMode] nil 4 17 17
+2022-08-08 17:44:38.3464 [I]-[ril.proatc] +CSQ: 21,99
+2022-08-08 17:44:38.3474 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.3524 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:38.3592 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:38.3634 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:38.3679 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:38.3699 [I]-[socket:sock_close] 0
+2022-08-08 17:44:38.3787 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:38.3886 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,40
+2022-08-08 17:44:38.3896 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.3939 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:38.4197 [I]-[ril.proatc] +CSQ: 21,99
+2022-08-08 17:44:38.4216 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.4256 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:38.4520 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,40
+2022-08-08 17:44:38.4530 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.4580 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:38.4852 [I]-[ril.proatc] +CSQ: 21,99
+2022-08-08 17:44:38.4874 [I]-[ril.proatc] OK
+2022-08-08 17:44:38.4924 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:38.5192 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,40
+2022-08-08 17:44:38.5212 [I]-[ril.proatc] OK
+2022-08-08 17:44:43.3777 [I]-[http path] /auth/devicename
+2022-08-08 17:44:43.3837 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:44.5139 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:44.5159 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:44.5179 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:44.6762 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:44.6802 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:44.6862 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:44.6882 [I]-[socket:sock_close] 0
+2022-08-08 17:44:44.6942 [I]-[http path] /auth/devicename
+2022-08-08 17:44:44.7001 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:44.7061 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:45.6221 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:45.6241 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:45.6260 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:45.7391 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:45.7461 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:45.7510 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:45.7520 [I]-[socket:sock_close] 1
+2022-08-08 17:44:45.7590 [I]-[http path] /auth/devicename
+2022-08-08 17:44:45.7680 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:45.7790 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:46.7399 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:46.7419 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:46.7439 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:46.8571 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:46.8623 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:46.8673 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:46.8683 [I]-[socket:sock_close] 0
+2022-08-08 17:44:46.8766 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:50.5170 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:44:50.5470 [I]-[ril.proatc] +CSQ: 21,99
+2022-08-08 17:44:50.5480 [I]-[ril.proatc] OK
+2022-08-08 17:44:50.5530 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:44:50.5779 [I]-[ril.proatc] +CESQ: 99,99,255,255,18,39
+2022-08-08 17:44:50.5799 [I]-[ril.proatc] OK
+2022-08-08 17:44:50.5849 [I]-[ril.sendat] AT+EEMGINFO?
+2022-08-08 17:44:50.6118 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2022-08-08 17:44:50.6138 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2022-08-08 17:44:50.6148 [I]-[ril.proatc] OK
+2022-08-08 17:44:50.6178 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2022-08-08 17:44:50.7888 [I]-[aliyun aliyun_publish_ind] publish
+2022-08-08 17:44:51.0216 
+2022-08-08 17:44:51.0226 +EEMLTESVC: 1120, 2, 0, 24741, 139, 40936, 40936, 41, 5, 62442883, 7, 43, 22, 8, 43, 22, 43, 22, 65535, 0, 21, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:44:51.0236 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 24741, 139, 40936, 40936, 41, 5, 62442883, 7, 43, 22, 8, 43, 22, 43, 22, 65535, 0, 21,
+2022-08-08 17:44:51.0265  0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:44:51.0275 
+2022-08-08 17:44:51.0275 +EEMLTEINTRA:0,0,11,42,11,1120,0,24741,5684612
+2022-08-08 17:44:51.0275 
+2022-08-08 17:44:51.0285 +EEMLTEINTRA:1,0,31,43,12,1120,0,24741,58970755
+2022-08-08 17:44:51.0285 
+2022-08-08 17:44:51.0295 +EEMLTEINTER:0,0,123,53,28,1120,0,24741,40115021
+2022-08-08 17:44:51.0295 
+2022-08-08 17:44:51.0305 +EEMLTEINTRA:2,0,93,41,9,1120,0,24741,59050641
+2022-08-08 17:44:51.0305 
+2022-08-08 17:44:51.0305 +EEMLTEINTER:1,0,233,38,11,1120,0,24741,42035268
+2022-08-08 17:44:51.0315 
+2022-08-08 17:44:51.0315 +EEMLTEINTER:2,0,287,38,29,1120,17,24120,98594310
+2022-08-08 17:44:51.0315 
+2022-08-08 17:44:51.0325 +EEMLTEINTER:3,0,140,35,6,1120,0,24741,62442882
+2022-08-08 17:44:51.0325 [I]-[eemLteSvc1] 24741 62442883  1120 0
+2022-08-08 17:44:51.8769 [I]-[http path] /auth/devicename
+2022-08-08 17:44:51.8829 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:52.9185 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:52.9206 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:52.9227 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:53.0762 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:53.0810 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:53.0890 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:53.0910 [I]-[socket:sock_close] 0
+2022-08-08 17:44:53.0990 [I]-[http path] /auth/devicename
+2022-08-08 17:44:53.1100 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:53.1169 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:44:54.1184 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:44:54.1206 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:54.1226 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:54.2774 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:44:54.2826 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:54.2869 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:54.2887 [I]-[socket:sock_close] 1
+2022-08-08 17:44:54.2946 [I]-[http path] /auth/devicename
+2022-08-08 17:44:54.3007 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:44:54.3077 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:44:55.0804 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:44:55.0804 [I]-[socket:connect: connect ok]
+2022-08-08 17:44:55.0814 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:44:55.1892 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:44:55.1892 [D]-[socket.recv] 252 nil
+2022-08-08 17:44:55.1892 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:44:55.1902 [I]-[socket:sock_close] 0
+2022-08-08 17:44:55.2012 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:45:00.1959 [I]-[http path] /auth/devicename
+2022-08-08 17:45:00.2029 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:45:01.0814 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:45:01.0854 [I]-[socket:connect: connect ok]
+2022-08-08 17:45:01.0874 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:45:01.2381 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:45:01.2424 [D]-[socket.recv] 252 nil
+2022-08-08 17:45:01.2477 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.device not found"}
+2022-08-08 17:45:01.2486 [I]-[socket:sock_close] 0
+2022-08-08 17:45:01.2556 [I]-[http path] /auth/devicename
+2022-08-08 17:45:01.2606 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:45:01.2656 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:45:02.3601 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:45:02.3621 [I]-[socket:connect: connect ok]
+2022-08-08 17:45:02.3641 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:45:02.5439 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:02.5477 [D]-[socket.recv] 249 nil
+2022-08-08 17:45:02.5532 [I]-[aLiYun.authCbFnc] true 200 {"code":400,"message":"auth error.invalid sign."}
+2022-08-08 17:45:02.5542 [I]-[socket:sock_close] 1
+2022-08-08 17:45:02.5618 [I]-[http path] /auth/register/device
+2022-08-08 17:45:02.5682 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 30
+2022-08-08 17:45:02.5732 [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+2022-08-08 17:45:03.5442 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:45:03.5462 [I]-[socket:connect: connect ok]
+2022-08-08 17:45:03.5482 [D]-[socket.send] total 288 bytes first 30 bytes POST /auth/register/device HTT
+2022-08-08 17:45:03.7973 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:45:03.8020 [D]-[socket.recv] 350 nil
+2022-08-08 17:45:03.8060 [I]-[aLiYun.getDeviceSecretCb] true 200
+2022-08-08 17:45:03.8100 [I]-[ril.sendat] AT+WISN="533a478056d719b90aee47cabedbc334"
+2022-08-08 17:45:03.8119 [I]-[socket:sock_close] 0
+2022-08-08 17:45:03.8191 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:45:03.9138 [I]-[ril.proatc] OK
+2022-08-08 17:45:03.9180 [I]-[ril.sendat] AT+WISN?
+2022-08-08 17:45:03.9446 [I]-[ril.proatc] 533a478056d719b90aee47cabedbc334
+2022-08-08 17:45:03.9466 [I]-[ril.proatc] OK
+2022-08-08 17:45:04.8195 [I]-[http path] /auth/devicename
+2022-08-08 17:45:04.8285 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCPSSL iot-auth.cn-shanghai.aliyuncs.com 443 nil 20
+2022-08-08 17:45:05.7874 [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+2022-08-08 17:45:05.7894 [I]-[socket:connect: connect ok]
+2022-08-08 17:45:05.7913 [D]-[socket.send] total 276 bytes first 30 bytes POST /auth/devicename HTTP/1.1
+2022-08-08 17:45:05.9819 [I]-[socket:on_response:] 0 SOCKET_SEND 0
+2022-08-08 17:45:06.0048 [D]-[socket.recv] 325 nil
+2022-08-08 17:45:06.0098 [I]-[aLiYun.authCbFnc] true 200 {"code":200,"data":{"iotId":"vKQ31mGGMlp73s4vDahLg8sm00","iotToken":"de5bfabd37ce47499f6fcd4c7c
+2022-08-08 17:45:06.0098 b66fa1"},"message":"success"}
+2022-08-08 17:45:06.0108 [I]-[socket:sock_close] 0
+2022-08-08 17:45:06.0218 [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCP g8smk7rpYDw.iot-as-mqtt.cn-shanghai.aliyuncs.com 1883 nil 120
+2022-08-08 17:45:06.0267 [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+2022-08-08 17:45:06.2865 [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+2022-08-08 17:45:06.2893 [I]-[socket:connect: connect ok]
+2022-08-08 17:45:06.3007 [D]-[mqtt.client:write] 105900044D51545404C200F0000F383638373339303536343139343437001A764B5133316D47474D6C703733733476446168 50
+2022-08-08 17:45:06.3026 [D]-[socket.send] total 91 bytes first 30 bytes Y
+2022-08-08 17:45:06.4354 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:06.4912 [D]-[socket.recv] 4 nil
+2022-08-08 17:45:06.4942 [D]-[mqtt.unpack] 4 20020000 4
+2022-08-08 17:45:06.4962 [I]-[aLiYunOta.connectCb] nil
+2022-08-08 17:45:06.4972 [I]-[aLiYunOta.verRpt] true ETC_1.0.3_LuatOS-Air_V4003_RDA8910_TTS_NOLVGL_FLOAT
+2022-08-08 17:45:06.4992 [I]-[aliyun aliyun_publish_ind] publish
+2022-08-08 17:45:06.5132 [D]-[mqtt.client:write] 82340002002F2F6F74612F6465766963652F757067726164652F6738736D6B3772705944772F383638373339303536343139 50
+2022-08-08 17:45:06.5132 [D]-[socket.send] total 54 bytes first 30 bytes �4
+2022-08-08 17:45:06.6773 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:06.6837 [D]-[socket.recv] 5 nil
+2022-08-08 17:45:06.6877 [D]-[mqtt.unpack] 5 9003000201 5
+2022-08-08 17:45:06.6977 [D]-[mqtt.client:write] 8235000300302F7379732F6738736D6B3772705944772F3836383733393035363431393434372F7468696E672F7365727669 50
+2022-08-08 17:45:06.6997 [D]-[socket.send] total 55 bytes first 30 bytes �5
+2022-08-08 17:45:06.8358 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:06.8405 [D]-[socket.recv] 5 nil
+2022-08-08 17:45:06.8446 [D]-[mqtt.unpack] 5 9003000301 5
+2022-08-08 17:45:06.8549 [D]-[mqtt.client:write] 308501003A2F7379732F6738736D6B3772705944772F3836383733393035363431393434372F7468696E672F6576656E742F 50
+2022-08-08 17:45:06.8570 [D]-[socket.send] total 136 bytes first 30 bytes 0�
+2022-08-08 17:45:07.0214 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:07.0338 [D]-[mqtt.client:write] 328501002E2F6F74612F6465766963652F696E666F726D2F6738736D6B3772705944772F3836383733393035363431393434 50
+2022-08-08 17:45:07.0348 [D]-[socket.send] total 136 bytes first 30 bytes 2�
+2022-08-08 17:45:07.1552 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:07.1628 [D]-[socket.recv] 4 nil
+2022-08-08 17:45:07.1655 [D]-[mqtt.unpack] 4 40020004 4
+2022-08-08 17:45:07.1673 [I]-[aLiYunOta.verRptCb] true
+2022-08-08 17:45:07.5220 [I]-[Fetch] there is file
+2022-08-08 17:45:07.5275 [I]-[Fetch] there is file
+2022-08-08 17:45:07.5312 [I]-[aliyun aliyun_publish_ind] publish
+2022-08-08 17:45:07.5342 [I]-[aliyun aliyun_publish_ind]
+2022-08-08 17:45:07.5434 [D]-[mqtt.client:write] 30C901003A2F7379732F6738736D6B3772705944772F3836383733393035363431393434372F7468696E672F6576656E742F 50
+2022-08-08 17:45:07.5454 [D]-[socket.send] total 204 bytes first 30 bytes 0�
+2022-08-08 17:45:07.7958 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:50.5231 [I]-[ril.sendat] AT+CSQ
+2022-08-08 17:45:50.5570 [I]-[ril.proatc] +CSQ: 23,99
+2022-08-08 17:45:50.5580 [I]-[ril.proatc] OK
+2022-08-08 17:45:50.5630 [I]-[ril.sendat] AT+CESQ
+2022-08-08 17:45:50.5947 [I]-[ril.proatc] +CESQ: 99,99,255,255,25,47
+2022-08-08 17:45:50.5977 [I]-[ril.proatc] OK
+2022-08-08 17:45:50.6052 [I]-[ril.sendat] AT+EEMGINFO?
+2022-08-08 17:45:50.6324 [I]-[ril.proatc] +EEMGINFO: 3, 2
+2022-08-08 17:45:50.6334 [I]-[ril.defurc] +EEMGINFO: 3, 2
+2022-08-08 17:45:50.6354 [I]-[ril.proatc] OK
+2022-08-08 17:45:50.6384 [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+2022-08-08 17:45:50.7898 [I]-[aliyun aliyun_publish_ind] publish
+2022-08-08 17:45:50.7918 [I]-[aliyun aliyun_publish_ind]
+2022-08-08 17:45:50.8031 [D]-[mqtt.client:write] 308501003A2F7379732F6738736D6B3772705944772F3836383733393035363431393434372F7468696E672F6576656E742F 50
+2022-08-08 17:45:50.8043 [D]-[socket.send] total 136 bytes first 30 bytes 0�
+2022-08-08 17:45:51.0013 [I]-[socket:on_response:] 1 SOCKET_SEND 0
+2022-08-08 17:45:52.6886 
+2022-08-08 17:45:52.6896 +EEMLTESVC: 1120, 2, 0, 24741, 139, 40936, 40936, 41, 5, 62442883, 7, 41, 22, 9, 41, 22, 41, 22, 65535, 0, 12, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:45:52.6916 [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 0, 24741, 139, 40936, 40936, 41, 5, 62442883, 7, 41, 22, 9, 41, 22, 41, 22, 65535, 0, 12,
+2022-08-08 17:45:52.6916 
+2022-08-08 17:45:52.6926 +EEMLTEINTRA:0,0,269,34,6,1120,0,24741,33600581
+2022-08-08 17:45:52.6926 
+2022-08-08 17:45:52.6936 +EEMLTEINTRA:1,0,140,34,7,1120,0,24741,62442882
+2022-08-08 17:45:52.6936 
+2022-08-08 17:45:52.6936 +EEMLTEINTER:0,0,233,41,14,1120,0,24741,42035268
+2022-08-08 17:45:52.6946  0, 0, 0, 0, 0, 65535, 0, 0, 0
+2022-08-08 17:45:52.6966 [I]-[eemLteSvc1] 24741 62442883  1120 0
